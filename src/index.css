@@ -1,0 +1,39 @@
+:root {
+  /* Colorful Pastel Theme */
+  --primary-color: #ff6b6b; /* Soft Red */
+  --secondary-color: #4ecdc4; /* Soft Teal */
+  --accent-color: #ffe66d; /* Soft Yellow */
+  --background-color: #f7f9fc; /* Very Light Blue/Grey */
+  --text-color: #2d3436; /* Dark Grey */
+  --card-bg: #ffffff;
+  --input-bg: #f1f3f5;
+  --font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--background-color);
+  color: var(--text-color);
+  line-height: 1.6;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  font-family: inherit;
+  transition: all 0.3s ease;
+}
+
+input {
+  font-family: inherit;
+}
